@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/response"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="313dp"
+        android:text="Correct!"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="679dp"
+        android:text="Math Game Application"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="654dp"
+        android:text="INFS3634 Individual Assignment 1" />
+
+    <TextView
+        android:id="@+id/firstno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginRight="313dp"
+        android:layout_marginBottom="501dp"
+        android:text="50"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="253dp"
+        android:layout_marginRight="253dp"
+        android:layout_marginBottom="498dp"
+        android:text="+"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/secondno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="498dp"
+        android:text="75"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="499dp"
+        android:text="="
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginRight="186dp"
+        android:layout_marginBottom="377dp"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="498dp"
+        android:text="he"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="433dp"
+        android:text="Your answer is: "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginBottom="198dp"
+        android:onClick="one"
+        android:text="1"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginBottom="198dp"
+        android:onClick="two"
+        android:text="2"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="198dp"
+        android:onClick="three"
+        android:text="3"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginBottom="134dp"
+        android:onClick="four"
+        android:text="4"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginBottom="134dp"
+        android:onClick="five"
+        android:text="5"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="135dp"
+        android:onClick="six"
+        android:text="6"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="seven"
+        android:text="7"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="eight"
+        android:text="8"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="nine"
+        android:text="9"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="zero"
+        android:text="0"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="clear"
+        android:text="DEL"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+
+    <Button
+        android:id="@+id/dot"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="286dp"
+        android:layout_marginRight="286dp"
+        android:layout_marginBottom="271dp"
+        android:onClick="dots"
+        android:text="dot"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="269dp"
+        android:onClick="minus"
+        android:text="minus"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="287dp"
+        android:layout_marginRight="287dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="confirm"
+        android:text="CON"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+
+</RelativeLayout>
