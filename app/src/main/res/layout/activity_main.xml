@@ -8,20 +8,21 @@
 
     <TextView
         android:id="@+id/response"
-        android:layout_width="157dp"
+        android:layout_width="118dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="141dp"
-        android:layout_marginLeft="141dp"
-        android:layout_marginEnd="113dp"
-        android:layout_marginRight="113dp"
-        android:layout_marginBottom="313dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="346dp"
         android:text="Correct!"
-        android:textSize="36sp"
+        android:textSize="24sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -63,10 +64,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="313dp"
-        android:layout_marginRight="313dp"
-        android:layout_marginBottom="501dp"
-        android:text="50"
+        android:layout_marginEnd="311dp"
+        android:layout_marginRight="311dp"
+        android:layout_marginBottom="569dp"
+        android:text="50.0"
         android:textSize="36sp" />
 
     <TextView
@@ -76,9 +77,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="253dp"
-        android:layout_marginRight="253dp"
-        android:layout_marginBottom="498dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginRight="244dp"
+        android:layout_marginBottom="571dp"
         android:text="+"
         android:textSize="36sp" />
 
@@ -89,10 +90,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="176dp"
-        android:layout_marginRight="176dp"
-        android:layout_marginBottom="498dp"
-        android:text="75"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="570dp"
+        android:text="75.0"
         android:textSize="36sp" />
 
     <TextView
@@ -102,9 +103,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="132dp"
-        android:layout_marginRight="132dp"
-        android:layout_marginBottom="499dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="567dp"
         android:text="="
         android:textSize="36sp" />
 
@@ -115,10 +116,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="186dp"
-        android:layout_marginRight="186dp"
-        android:layout_marginBottom="377dp"
-        android:textSize="36sp" />
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="434dp"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -127,11 +128,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="69dp"
-        android:layout_marginRight="69dp"
-        android:layout_marginBottom="498dp"
-        android:text="he"
-        android:textSize="36sp" />
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="568dp"
+        android:text="p"
+        android:textSize="36sp"
+        android:visibility="visible" />
 
     <TextView
         android:id="@+id/textView9"
@@ -140,10 +142,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="126dp"
+        android:layout_marginEnd="180dp"
 
-        android:layout_marginRight="126dp"
-        android:layout_marginBottom="433dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginBottom="434dp"
         android:text="Your answer is: "
         android:textSize="24sp" />
 
@@ -373,6 +375,19 @@
         android:textColor="@color/white"
         app:backgroundTint="@color/cardview_dark_background"
         app:iconTint="@color/material_on_primary_emphasis_medium" />
+
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignBottom="@+id/secondno"
+        android:layout_marginEnd="143dp"
+        android:layout_marginRight="143dp"
+        android:layout_marginBottom="-69dp"
+        android:text="00:00"
+        android:textSize="24sp" />
 
 
 </RelativeLayout>
